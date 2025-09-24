@@ -30,7 +30,7 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
       console.log(`Logged in as ${client.user.tag}`);
       
       // Set bot's status
-      client.user.setActivity('use code ms_blackslasher', { type: 3 }); // Type 3 is "Watching"
+      client.user.setActivity('code ms_blackslasher', { type: 3 }); // Type 3 is "Watching"
       
       // Set bot's about me with watermark
       const watermark = "https://discord.gg/blackslash3r";
