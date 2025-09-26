@@ -127,10 +127,10 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
           }
         )
         .setColor('#00D4AA')
-        .setThumbnail('https://cdn.discordapp.com/attachments/1395245783808348331/1400354191624372375/0d02b202baf618dc122475bf70350fd9.png') 
+        .setThumbnail('https://cdn.discordapp.com/emojis/1015974858909306930.webp?size=96') 
         .setFooter({ 
-          text: '🔥 Active Developer Badge bot | Made with ❤️ by Blackslash3r',
-          iconURL: 'https://cdn.discordapp.com/attachments/1332936607267033138/1400353273906593844/image_8.png' 
+          text: 'Active Developer Badge bot | Made with ❤️ by Blackslash3r',
+          iconURL: 'https://cdn.discordapp.com/emojis/1379151848874709114.webp?size=96' 
         })
         .setTimestamp()
         .setImage('https://cdn.discordapp.com/attachments/1395245783808348331/1400351640028053556/20250731_102557.png');
